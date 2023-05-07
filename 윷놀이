@@ -40,7 +40,8 @@ def interpret_yut(yut_result):
         return "잘못된 결과입니다."
 
 # 윷놀이 실행
-print("윷놀이를 시작합니다!")
+num_p = int(input("인원수를 적어주세요 : "))
+print("%d명으로 윷놀이를 시작합니다!"%(num_p))
 while True:
     enter_button = input("Enter를 누르면 윷을 던집니다.(아무거나 입력하면 종료됩니다.)")
     if enter_button == "":
